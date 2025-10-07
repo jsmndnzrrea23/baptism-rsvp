@@ -8,8 +8,9 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-open-sans);
+  --font-serif: var(--font-playfair);
+  --font-script: var(--font-great-vibes);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,5 +23,35 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-open-sans), Arial, Helvetica, sans-serif;
+}
+
+/* Pink felt texture background - lighter for baptism */
+.pink-felt-bg {
+  background-image: 
+    url('/soft-pink-felt-closeup-high-resolution-photo_463999-1600.jpg');
+  background-size: 400px 400px;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+/* Light overlay for baptism celebration with subtle paper texture */
+.pink-felt-overlay {
+  background: 
+    /* Subtle paper fiber texture */
+    url("data:image/svg+xml,%3Csvg width='300' height='300' viewBox='0 0 300 300' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.06'%3E%3Cpath d='M0 0h300v1H0zM0 2h300v1H0zM0 4h300v1H0zM0 6h300v1H0zM0 8h300v1H0zM0 10h300v1H0zM0 12h300v1H0zM0 14h300v1H0zM0 16h300v1H0zM0 18h300v1H0zM0 20h300v1H0zM0 22h300v1H0zM0 24h300v1H0zM0 26h300v1H0zM0 28h300v1H0zM0 30h300v1H0zM0 32h300v1H0zM0 34h300v1H0zM0 36h300v1H0zM0 38h300v1H0zM0 40h300v1H0zM0 42h300v1H0zM0 44h300v1H0zM0 46h300v1H0zM0 48h300v1H0zM0 50h300v1H0zM0 52h300v1H0zM0 54h300v1H0zM0 56h300v1H0zM0 58h300v1H0zM0 60h300v1H0zM0 62h300v1H0zM0 64h300v1H0zM0 66h300v1H0zM0 68h300v1H0zM0 70h300v1H0zM0 72h300v1H0zM0 74h300v1H0zM0 76h300v1H0zM0 78h300v1H0zM0 80h300v1H0zM0 82h300v1H0zM0 84h300v1H0zM0 86h300v1H0zM0 88h300v1H0zM0 90h300v1H0zM0 92h300v1H0zM0 94h300v1H0zM0 96h300v1H0zM0 98h300v1H0zM0 100h300v1H0zM0 102h300v1H0zM0 104h300v1H0zM0 106h300v1H0zM0 108h300v1H0zM0 110h300v1H0zM0 112h300v1H0zM0 114h300v1H0zM0 116h300v1H0zM0 118h300v1H0zM0 120h300v1H0zM0 122h300v1H0zM0 124h300v1H0zM0 126h300v1H0zM0 128h300v1H0zM0 130h300v1H0zM0 132h300v1H0zM0 134h300v1H0zM0 136h300v1H0zM0 138h300v1H0zM0 140h300v1H0zM0 142h300v1H0zM0 144h300v1H0zM0 146h300v1H0zM0 148h300v1H0zM0 150h300v1H0zM0 152h300v1H0zM0 154h300v1H0zM0 156h300v1H0zM0 158h300v1H0zM0 160h300v1H0zM0 162h300v1H0zM0 164h300v1H0zM0 166h300v1H0zM0 168h300v1H0zM0 170h300v1H0zM0 172h300v1H0zM0 174h300v1H0zM0 176h300v1H0zM0 178h300v1H0zM0 180h300v1H0zM0 182h300v1H0zM0 184h300v1H0zM0 186h300v1H0zM0 188h300v1H0zM0 190h300v1H0zM0 192h300v1H0zM0 194h300v1H0zM0 196h300v1H0zM0 198h300v1H0zM0 200h300v1H0zM0 202h300v1H0zM0 204h300v1H0zM0 206h300v1H0zM0 208h300v1H0zM0 210h300v1H0zM0 212h300v1H0zM0 214h300v1H0zM0 216h300v1H0zM0 218h300v1H0zM0 220h300v1H0zM0 222h300v1H0zM0 224h300v1H0zM0 226h300v1H0zM0 228h300v1H0zM0 230h300v1H0zM0 232h300v1H0zM0 234h300v1H0zM0 236h300v1H0zM0 238h300v1H0zM0 240h300v1H0zM0 242h300v1H0zM0 244h300v1H0zM0 246h300v1H0zM0 248h300v1H0zM0 250h300v1H0zM0 252h300v1H0zM0 254h300v1H0zM0 256h300v1H0zM0 258h300v1H0zM0 260h300v1H0zM0 262h300v1H0zM0 264h300v1H0zM0 266h300v1H0zM0 268h300v1H0zM0 270h300v1H0zM0 272h300v1H0zM0 274h300v1H0zM0 276h300v1H0zM0 278h300v1H0zM0 280h300v1H0zM0 282h300v1H0zM0 284h300v1H0zM0 286h300v1H0zM0 288h300v1H0zM0 290h300v1H0zM0 292h300v1H0zM0 294h300v1H0zM0 296h300v1H0zM0 298h300v1H0z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"),
+    /* Main overlay gradients */
+    linear-gradient(135deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.5) 100%),
+    linear-gradient(45deg, rgba(255, 182, 193, 0.3) 0%, rgba(255, 192, 203, 0.2) 100%);
+  background-size: 300px 300px, 100% 100%, 100% 100%;
+}
+
+/* Elegant paper texture */
+.paper-texture {
+  background-image: 
+    url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23f8f9fa' fill-opacity='0.05'%3E%3Cpath d='M50 0L100 50L50 100L0 50z'/%3E%3C/g%3E%3C/svg%3E"),
+    linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%),
+    linear-gradient(-45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%);
+  background-size: 100px 100px, 20px 20px, 20px 20px;
+  background-position: 0 0, 0 0, 0 10px;
 }
