@@ -29,10 +29,11 @@ export const EVENT_INFO = {
   },
   giftIdeas: [
     "Educational Toys/Books",
-    "Huggies Diaper (Medium)",
+    "Huggies Diaper (Medium or Large)",
     "Cetaphil Bathwash/lotion",
     "Kleenfant or Unilove unscented wipes",
-    "Clothes 6 to 12 months up",
+    "Clothes 6 to 12 months up",   
+    "Gift cards",
     "Monetary gift for Gia future savings",
   ],
   messages: {
